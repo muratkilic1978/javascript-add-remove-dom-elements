@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Wellfleet);
+
+body {
+	background-color: #fecc6f;
+	color: black;
+	}
+
+h1 {
+
+    font-size:1.5em;
+    color: crimson;
+}
+
+ul li {
+  decoration: none;
+  display: block;
+  margin-top: 1em;
+  text-align: center;
+  font-family:  'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 18px;
+}
+
+#add {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 280px;
+  font-color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 15px;
+  outline: none;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+}
+
+#add:hover {
+  background-color: #28364d;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+#add:active {
+  position: relative;
+  bottom: 2px;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+input#inputElementField {
+  margin-left: 23rem;
+  margin-right: 23rem;
+}
+
+button.btn {
+    margin-left: 1rem;
+}
